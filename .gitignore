@@ -1,0 +1,13 @@
+# Obsidian app local config
+.obsidian/
+
+# Obsidian trash
+.trash/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+#temp files
+*.tmp
+*.bak
