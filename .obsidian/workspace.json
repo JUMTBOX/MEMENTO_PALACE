@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "22a50e8db941ff4d",
+        "id": "62ba80f893347bda",
         "type": "tabs",
         "children": [
           {
-            "id": "48f2731a1241f52b",
+            "id": "a8faca29b233dd78",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "10_Dev/OSTEP/1. 프로세스.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "1. 프로세스"
             }
           }
         ]
@@ -187,10 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48f2731a1241f52b",
+  "active": "a8faca29b233dd78",
   "lastOpenFiles": [
-    "10_Dev/OSTEP/1. 프로세스.md",
     "10_Dev/OSTEP/0. OS 개요.md",
+    "30_Study/C/50. 복합 대입 연산자.md",
+    "10_Dev/OSTEP/1. 프로세스.md",
+    "30_Study/C",
     "10_Dev/OSTEP",
     "10_Dev/문병로교수/Read By KeyWord.md",
     "10_Dev/한권컴구프로그래밍/11. 성능 향상을 위한 알고리즘 기법.md",
@@ -207,7 +213,6 @@
     "30_Study",
     "20_TroubleShooting",
     "10_Dev",
-    "00_Inbox",
     "무제.md",
     "환영합니다!.md"
   ]
