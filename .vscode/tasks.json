@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "활성 파일 빌드 with Cygwin",
+      "type": "process",
+      "command": "C:/cygwin64/bin/bash.exe",
+      "args": [
+        "-lc",
+        "cd \"$(cygpath -u '${workspaceFolder}')\" && mkdir -p practice_build && gcc -g \"$(cygpath -u '${file}')\" -o \"practice_build/${fileBasenameNoExtension}.exe\""
+      ],
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "label": "활성 파일 실행 with Cygwin",
+      "type": "process",
+      "command": "C:/cygwin64/bin/bash.exe",
+      "args": [
+        "-lc",
+        "cd \"$(cygpath -u '${workspaceFolder}')\" && ./practice_build/${fileBasenameNoExtension}.exe"
+      ],
+      "dependsOn": "활성 파일 빌드 with Cygwin",
+      "problemMatcher": []
+    }
+  ]
+}

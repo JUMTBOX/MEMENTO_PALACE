@@ -11,3 +11,6 @@ Thumbs.db
 #temp files
 *.tmp
 *.bak
+
+.idea
+practice_build
