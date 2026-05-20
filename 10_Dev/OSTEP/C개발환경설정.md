@@ -6,6 +6,7 @@
 2. Cygwin 설치
 3. 시스템 환경 변수 Path에 `C:/cygwin/bin` 경로 추가
 4. vscode `C/C++ Extension Pack` 확장 설치
+5. 실행 할 소스 파일에서 `Crtl + Shift + P` -> `Tasks: Run Task` -> `활성 파일 실행 with Cygwin` 작업 선택
 
 **MSYS2 (소프트웨어 배포 및 개발 환경 플랫폼)**
 
