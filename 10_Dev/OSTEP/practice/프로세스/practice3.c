@@ -21,7 +21,7 @@ int main () {
     int pipeBuffer[2];
 
     if(pipe(pipeBuffer) == -1) {
-
+        return -1; 
     }
 
     pid_t p = fork();
