@@ -21,10 +21,10 @@ int main () {
     } else if (pid == 0) {
         /* 자식 process */
         printf("자식 프로세스여 \n");
-        sleep(10);
+        sleep(1);
         // exit(42); -> 정상 종료
-        printf("??????? 10초 sleep 안함?");
-        // kill(getpid(), SIGKILL);
+        printf("sleep 끝? \n");
+        kill(getpid(), SIGKILL);
     } else {
         printf("부모 프로세스여 \n");
         /* 부모 process */    
@@ -32,6 +32,7 @@ int main () {
         
         printf("블로킹 되는지 검증 \n");
         
+        sleep(5);
         if(WIFEXITED(wstatus)) {
             printf("자식 프로세스 정상 종료. 반환 값: %d \n", WEXITSTATUS(wstatus));        
         } else if (WIFSIGNALED(wstatus)) {
