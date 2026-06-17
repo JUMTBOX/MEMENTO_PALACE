@@ -25,6 +25,12 @@
       ],
       "dependsOn": "활성 파일 빌드 with Cygwin",
       "problemMatcher": []
+    },
+    {
+      "label": "수리용",
+      "type": "shell",
+      "command": "echo ${workspaceFolder} && echo ${file}",
+      "problemMatcher": []
     }
   ]
 }
