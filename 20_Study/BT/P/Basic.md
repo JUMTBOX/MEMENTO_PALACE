@@ -16,6 +16,21 @@ Ontology로 업무 개념화
 **What is the foundry ontology?**
 - Foundry Ontology는 기업의 데이터를 현실 세계의 업무 객체, 관계, 행동으로 표현한 운영 계층
 
+- **Semantic Layer**
+- Objects
+- Multi-Modal Properties
+- Links
+
+**Kinetic Layer**
+- AI-Driven Actions & Functions
+- Process Mining & Automation
+- Real-Time Monitoring
+
+**Dynamic Layer**
+- Simulation
+- Orchestration
+- Autonomous Operations
+
 
 <table style="text-align: center">
     <thead style="background: #3572b0; color: white;">
