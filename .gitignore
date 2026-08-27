@@ -13,4 +13,6 @@ Thumbs.db
 *.bak
 
 .idea
+.vscode
 practice_build
+node_modules
